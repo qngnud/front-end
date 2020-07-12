@@ -13,13 +13,8 @@ export const query = graphql`
       title
       content
       published_at
-      singleImage {
+      image {
          publicURL
-        }
-        multipleImages {
-          localFile {
-            publicURL
-          }
         }
     }
   }

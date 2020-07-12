@@ -14,13 +14,8 @@ export const query = graphql`
           category {
             name
           }
-          singleImage {
+          image {
          publicURL
-        }
-        multipleImages {
-          localFile {
-            publicURL
-          }
         }
         }
       }

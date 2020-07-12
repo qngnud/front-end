@@ -22,14 +22,6 @@ const IndexPage = () => (
                 image {
                   publicURL
                 }
-                singleImage {
-                    publicURL
-                }
-                multipleImages {
-                  localFile {
-                    publicURL
-                  }
-                }
               }
             }
           }
